@@ -25,6 +25,5 @@ src_compile() {
 
 src_install() {
 	insinto "/lib/modules/${KV_FULL}/kernel/drivers/net/wireless/"
-	doins 8812au.ko
-	install
+	doins rtl8812au.ko
 }
